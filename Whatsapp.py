@@ -30,19 +30,8 @@ driver = webdriver.Chrome(PathofDriver,options=options)
 driver.get("https://web.whatsapp.com/")
 
  
-ListWeb = {'jyoti' : "+919034809762",
-           'tanu' : "+919053436919",
-           'mummy' : "+919729770345",
-          'parvesh' : "+917404040463",
-          'naman' : "+919253781816",
-          'nisha' : "+918708229168",
-          'khemchand' : "+918882618289",
-           'karthik' : "+918708364296",
-           'sagar' : "+919034240276",
-           'harsh mittal' : "+917988689897",
-           'bhavishya' : "+919306554206",
-           'govind' : "+919812238943",
-           'himanshu' : "+919812238943"}
+ListWeb = {'nitesh' : "+91908XXXXXXXX",
+           }
           
 
 def WhatsappSender(Name):
