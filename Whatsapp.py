@@ -31,7 +31,7 @@ driver.get("https://web.whatsapp.com/")
 
  
 ListWeb = {'nitesh' : "+91908XXXXXXXX",
-           }
+           }# enter the name and numbers of your contacts 
           
 
 def WhatsappSender(Name):
