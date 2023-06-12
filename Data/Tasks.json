@@ -1,0 +1,133 @@
+{
+    "intents":[
+        {
+            "tag":"open",
+            "patterns":["open","start","launch","visit","open folder","open document","search folder","search document","folder","document"
+            ],
+            "responses":["open"
+            ]
+        },
+        {
+            "tag":"send",
+            "patterns":["whatsapp","message","send whatsapp"
+            ],
+            "responses":["whatsapp"
+            ]
+        },
+        {
+            "tag":"close",
+            "patterns":["close","stop","exit","cloze"],
+            "responses":["close"]
+        },
+        {
+            "tag":"email",
+            "patterns":["send","mail","email","send email","send mail"
+            ],
+            "responses":["email"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["what is time","time","what's the time","samay","kitna time hua"],  
+            "responses": ["time"]
+        },
+        {
+            "tag":"date",
+            "patterns":["what is the date today","date","what's the date","kitni tarik h aaj"],  
+            "responses": ["date"]
+        
+        },
+        {
+            "tag":"day",
+            "patterns":["what is the day today","day","what's the day","konsa din h aaj","din"],  
+            "responses": ["day"]
+        
+        },
+        {
+            "tag":"open new tab",
+            "patterns":["open new tab","new tab","can you open a new tab","tab"], 
+            "responses": ["new tab"]
+             
+        
+        },
+        {
+            "tag":"open new window",
+            "patterns":["open new window","new chrome window","can you open a new window","can you open a new chrome window"], 
+            "responses": ["new window"]
+             
+        
+        },
+        {
+            "tag":"open history",
+            "patterns":["open history","open previous tab history","show me history","open history tab","open tab history"], 
+            "responses": ["history"]
+             
+        
+        },
+        {
+            "tag":"google search",
+            "patterns":["search on google","can you search on google"],  
+            "responses": ["google search"]
+        },
+        {
+            "tag":"youtube search",
+            "patterns":["search on youtube","can you search on youtube"],  
+            "responses": ["youtube search"]
+        },
+        {
+            "tag":"shutdown",
+            "patterns":["shutdown the system","please close the system","i am tierd shutdown the pc","close everything"],  
+            "responses": ["shutdown"]
+            
+        
+        },
+        {
+            "tag":"restart",
+            "patterns":["restart the system","please restart system","reboot the system","i think system is slow get a restart"],  
+            "responses": ["restart"]
+             
+        
+        },
+        {
+            "tag":"add to bookmark",
+            "patterns":["bookmark this page","","bookmark that page","create a bookmark","create a bookmark for this page","bookmark"],  
+            "responses": ["add to bookmark"]
+             
+        
+        },
+        {
+            "tag":"open download folder",
+            "patterns":["show me my downloads","jo mene download kiya h vo dikaho","download tab open kro","open download tab"],  
+            "responses": ["download folder"]
+             
+        
+        },
+        {
+            "tag":"turn on",
+            "patterns":["turn on bulb","turn on","switch on","switch on bulb","turn on light"],  
+            "responses": ["turn on"]
+        },
+        {
+            "tag":"turn off",
+            "patterns":["turn off bulb","turn off","switch off","switch off bulb","turn off light"],  
+            "responses": ["turn off"]
+        },
+        {
+            "tag":"translator",
+            "patterns":["on translator","on the translator","i need to translate something","turn on translator"],  
+            "responses": ["translator"]
+        },
+        {
+            "tag":"on tv",
+            "patterns":["turn on the tv","turn on tv","switch on tv","on tv","please turn on  tv"],  
+            "responses": ["on tv"]
+        },
+        {
+            "tag":"rest",
+            "patterns":["take some rest","i am tired i need rest","stop","i need rest","stop working"],  
+            "responses": ["rest"]
+        }
+        
+        
+    ]
+}

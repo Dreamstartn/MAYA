@@ -1,0 +1,15 @@
+
+You : hello maya 
+Maya : Hello, how are you doing?
+You : how are you maya 
+Maya : I'm doing well, thank you for asking. How about you?
+You : i need a russian 
+Maya : I'm sorry, I don't understand what you're asking for. Can you please clarify?
+You : hello hello 
+Maya : Hello, how are you doing?
+You : ek number 
+Maya : I'm sorry, I don't understand what you're asking for. Can you please clarify?
+You : wake up 
+Maya : I'm sorry, I don't understand what you're asking for. Can you please clarify?
+You : locker 
+Maya : I'm sorry, I don't understand what you're asking for. Can you please clarify?
