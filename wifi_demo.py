@@ -3,7 +3,7 @@ from Body.Speak import Speak
 import urllib.request
 #defines function and_ classes which help in opening urls
 #url handling module for python
-root_url = "http://192.168.195.227"
+root_url = "http://192.xxx.xxx.xxx"
 
 def sendRequest(url):
 	n = urllib.request.urlopen(url) # send request to ESP
