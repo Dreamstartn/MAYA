@@ -17,20 +17,14 @@ smtp_server = "smtp.gmail.com"  # Google SMTP Server
 # Set up the email lists
 email_from = "niteshsaini824@gmail.com"
 email_list = {
-    'nitesh': 'niteshsmarty111@gmail.com',
-    'tanu'  :  'triptidhingra824@gmail.com',
-    'naman' : 'jainnaman868589@gmail.com',
-    'khemchand' : "khemu12121@gmail.com",
-    'harsh' : "mittalofficial25@gmail.com",
-    'amit'  :  "amitver2000@gmail.com",
-    'nisha' : "rohillanisha74@gmail.com",
-    'jyoti' : "jinnysaini111@gmail.com"
+    'nitesh': 'niteshsmarty222@gmail.com',
+ 
     }
 
 
 
-# Define the password (better to reference externally)
-pswd = 'sozaxkopxjawrsvj' 
+# Define the password (better to reference externally) USE APP PASSWORD
+pswd = 'sozaxkopXXXXXX' 
 
 
 # name the email subject
@@ -92,7 +86,7 @@ def send_email(receiver, subject, message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     # Make sure to give app access in your Google account
-    server.login('niteshsaini824@gmail.com','wvlzjbpbwomkdfje')
+    server.login('niteshsaini824@gmail.com','wvlzjbpbxxxxx')
     email = EmailMessage()
     email['From'] = 'niteshsaini824@gmail.com'
     email['To'] = receiver
